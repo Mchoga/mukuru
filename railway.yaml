@@ -1,0 +1,7 @@
+name: my-flask-app
+services:
+  web:
+    port: 8080
+    command: python app.py
+    env:
+      PORT: 8080
